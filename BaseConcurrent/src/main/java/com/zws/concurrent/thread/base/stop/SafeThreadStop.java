@@ -1,7 +1,7 @@
 package com.zws.concurrent.thread.base.stop;
 
 import com.zws.concurrent.annotation.Recommend;
-import com.zws.concurrent.annotation.Safety;
+import com.zws.concurrent.annotation.ThreadSafe;
 import com.zws.concurrent.utils.ThreadUtils;
 
 /**
@@ -10,7 +10,7 @@ import com.zws.concurrent.utils.ThreadUtils;
  * @author zhengws
  * @date 2019-12-04 15:17
  */
-@Safety
+@ThreadSafe
 @Recommend
 public class SafeThreadStop {
 

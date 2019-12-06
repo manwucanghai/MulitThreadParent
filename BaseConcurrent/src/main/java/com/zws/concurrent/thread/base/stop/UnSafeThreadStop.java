@@ -1,6 +1,6 @@
 package com.zws.concurrent.thread.base.stop;
 
-import com.zws.concurrent.annotation.UnSafety;
+import com.zws.concurrent.annotation.NotThreadSafe;
 import com.zws.concurrent.utils.ThreadUtils;
 
 /**
@@ -9,7 +9,7 @@ import com.zws.concurrent.utils.ThreadUtils;
  * @author zhengws
  * @date 2019-12-04 15:17
  */
-@UnSafety
+@NotThreadSafe
 public class UnSafeThreadStop {
 
     private static class User {
