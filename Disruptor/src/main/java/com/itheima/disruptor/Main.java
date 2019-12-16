@@ -39,7 +39,7 @@ public class Main {
         // 连接消费事件方法
         disruptor.handleEventsWith(handler1, handler2);
 
-        Thread.sleep(20000);
+//        Thread.sleep(20000);
         disruptor.start();
 
         //发布事件
